@@ -1,0 +1,267 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.main {
+    width: 100%;
+    height: 100vh;
+}
+
+/* Inicia Section-1 */
+
+.section-1 {
+    width: 100%;
+    height: 10em;
+    background: linear-gradient(90deg,#9d5baa,#ff5500);
+    padding-top: 1.5em;
+}
+
+.header {
+    width: 100%;
+    height: 3em;
+    background-color: #2d2f2e;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.img {
+    width: 25%;
+    height: 100%;
+    background-color:chartreuse;
+}
+
+.img img {
+    object-fit: cover;
+    height: 100%;
+}
+
+.menu {
+    width: 65%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+}
+
+.menu a {
+    display: flex;
+    text-decoration: none;
+    color: #fff;
+    padding: 2em 1em;
+}
+
+.menu a:hover {
+    background-color: #ff5500;
+}
+/* Finaliza Section-1 */
+
+
+/* Inicia Section-2 */
+
+.section-2 {
+    width: 100%;
+    padding: 1em;
+    height: calc(100vh - 20em);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.s2-text {
+    width: 90%;
+    height: 25%;
+}
+
+.title {
+    font-size: 2em;
+    text-align: center;
+    color: #454245;
+}
+
+.s2-text hr{
+    width: 3em;
+    height: 0.25em;
+    margin: 1em auto;
+    background: linear-gradient(90deg,#9d5baa,#ff5500);
+    border: none;
+    border-radius: 1em;
+    -webkit-border-radius: 1em;
+    -moz-border-radius: 1em;
+    -ms-border-radius: 1em;
+    -o-border-radius: 1em;
+    
+}
+
+.s2-text p{
+    font-size: 1.2em;
+    text-align: center;
+}
+
+
+.s2-img {
+    width: 90%;
+    height: 75%;
+    
+    display: flex;
+    flex-direction: row;
+}
+
+.s2-container {
+    width: 33.33%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: burlywood;
+    padding: 0.5em;
+}
+
+.img-container {
+    width: 100%;
+    height: 50%;
+    background-color: chartreuse;
+    overflow: hidden;
+}
+
+.img-container img {
+    object-fit: cover;
+    width: 100%;
+}
+
+.text-container {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0.3em 0;
+}
+
+.text-container h2 {
+    font-size: 1.25em;
+    color: #ff5500;
+}
+
+.text-container p {
+    font-size: 1em;
+    color: #454245;
+    margin: 1em 0;
+    text-align: center;
+}
+
+.text-container a {
+    width: 7em;
+    padding: 0.75em 0;
+    text-align: center;
+    border: none;
+    text-decoration: none;
+    color: white;
+    background-color: #ff5500;
+    border-radius: 0.3125em;
+    -webkit-border-radius: 0.3125em;
+    -moz-border-radius: 0.3125em;
+    -ms-border-radius: 0.3125em;
+    -o-border-radius: 0.3125em;
+}
+/* Finaliza Section-2 */
+
+
+/* Inicia Section-3 */
+
+.section-3 {
+    width: 100%;
+    height: 10em;
+    background:  #2d2f3e;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.section-3 hr {
+    background: linear-gradient(90deg,#9d5baa,#ff5500);
+    width: 100%;
+    height: 5%;
+    border: none;
+}
+
+.s3-container {
+    width: 100%;
+    height: 65%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.s3-logo {
+    width: 50%;
+    
+}
+
+.s3-logo img {
+    object-fit: cover;
+    height: 100%;
+    background-color: chartreuse;
+}
+
+
+.s3-text {
+    width: 50%;
+}
+
+.s3-text h3 {
+    font-size: 1.1em;
+    color: white;
+    margin: 0.25em 0;
+}
+
+.s3-text p {
+    font-size: 0.9em;
+    color: white;
+}
+
+.s3-text a {
+    text-decoration: none;
+    font-size: 0.9em;
+    color: white;
+}
+
+.footer {
+    width: 100%;
+    height: 30%;
+    border-top:#f0a1f0 solid 0.0725em;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    color: #fff;
+    padding: 0 10%;
+}
+
+.author {
+    text-decoration: none;
+    color: #fff;
+    margin: 1em;
+}
+
+.policies {
+    text-decoration: none;
+    color: #fff;
+    margin: 1em;
+}
+
+
+
+/* Finaliza Section-3 */
